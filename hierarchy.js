@@ -1131,7 +1131,6 @@ var hierarchy =
           [ "P4::IR::NameMap< T, MAP, COMP, ALLOC >", "class_p4_1_1_i_r_1_1_name_map.html", null ],
           [ "P4::IR::NodeMap< KEY, VALUE, MAP, COMP, ALLOC >", "class_p4_1_1_i_r_1_1_node_map.html", null ],
           [ "P4::IR::VectorBase", "class_p4_1_1_i_r_1_1_vector_base.html", [
-            [ "P4::IR::iterator< T >", "class_p4_1_1_i_r_1_1_vector.html", null ],
             [ "P4::IR::Vector< IR::Expression >", "class_p4_1_1_i_r_1_1_vector.html", null ],
             [ "P4::IR::Vector< IR::BFN::Pipe >", "class_p4_1_1_i_r_1_1_vector.html", null ],
             [ "P4::IR::Vector< IR::NamedExpression >", "class_p4_1_1_i_r_1_1_vector.html", [
@@ -1396,9 +1395,6 @@ var hierarchy =
     [ "P4::ordered_map< K, V, COMP, ALLOC >::value_compare", "class_p4_1_1ordered__map_1_1value__compare.html", null ],
     [ "P4::ordered_map< const State *, ordered_set< const State * > >", "class_p4_1_1ordered__map.html", [
       [ "ParserStateMap< State >", "group__parde.html#struct_parser_state_map", null ]
-    ] ],
-    [ "P4::ordered_map< std::string, JsonData * >", "class_p4_1_1ordered__map.html", [
-      [ "P4::JsonObject", "class_p4_1_1_json_object.html", null ]
     ] ],
     [ "P4::ordered_set< T, COMP, ALLOC >", "class_p4_1_1ordered__set.html", null ],
     [ "P4::ordered_set< const PHV::Field * >", "class_p4_1_1ordered__set.html", [
@@ -1903,6 +1899,9 @@ var hierarchy =
     [ "P4::string_map< V >", "class_p4_1_1string__map.html", null ],
     [ "P4::string_map< IJson * >", "class_p4_1_1string__map.html", [
       [ "P4::Util::JsonObject", "class_p4_1_1_util_1_1_json_object.html", null ]
+    ] ],
+    [ "P4::string_map< std::unique_ptr< JsonData > >", "class_p4_1_1string__map.html", [
+      [ "P4::JsonObject", "class_p4_1_1_json_object.html", null ]
     ] ],
     [ "P4::StringRef", "struct_p4_1_1_string_ref.html", null ],
     [ "P4::StringRef::Split", "class_p4_1_1_string_ref_1_1_split.html", null ],
@@ -3728,8 +3727,6 @@ var hierarchy =
       [ "assoc::hash_set< T, Hash, Equal, Allocator >", "classassoc_1_1hash__set.html", null ]
     ] ],
     [ "std::vector< T >", null, [
-      [ "P4::iterator<>", "class_p4_1_1safe__vector.html", null ],
-      [ "P4::const_iterator<>", "class_p4_1_1safe__vector.html", null ],
       [ "P4::iterator<>", "class_p4_1_1safe__vector.html", null ],
       [ "P4::safe_vector< SingleActionPositions >", "class_p4_1_1safe__vector.html", null ],
       [ "P4::safe_vector< const RamSection * >", "class_p4_1_1safe__vector.html", null ],
